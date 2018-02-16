@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Manekin_Project1</string>
+    <string name="enter_text1">Śniadanie, lunch a może kolacja?</string>
+    <string name="enter_text2">Naleśniki w Manekinie na każdą okazję! Wytrawne oraz na słodko, zarówno te lekkie, jak i sycące.</string>
+    <string name="facebook1">* Zapraszamy na nasz FanPage:</string>
+    <string name="facebook2">https://www.facebook.com/ManekinWarszawaFanPage</string>
+    <string name="adres">Warszawa \nul.Marszałkowska 140 \ntel. 22 826 07 53 \nwarszawa@manekin.pl</string>
+    <string name="hours">\ngodziny otwarcia: \nnie - czw: 09.00 - 22.00 \npt i sob: 09.00 - 23.00</string>
+</resources>

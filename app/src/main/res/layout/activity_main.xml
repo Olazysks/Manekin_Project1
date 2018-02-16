@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.manekin_project1.MainActivity">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/enter_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:paddingLeft="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_medium"
+            android:paddingTop="@dimen/padding_medium"
+            android:text="@string/enter_text1"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/enter_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enter_text1"
+            android:padding="@dimen/padding_medium"
+            android:text="@string/enter_text2"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enter_text2"
+            android:src="@drawable/entering2" />
+
+        <TextView
+            android:id="@+id/facebook1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photo"
+            android:paddingLeft="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_medium"
+            android:paddingTop="@dimen/padding_medium"
+            android:text="@string/facebook1"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/facebook2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facebook1"
+            android:paddingLeft="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_medium"
+            android:text="@string/facebook2"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facebook2"
+            android:padding="@dimen/padding_medium"
+            android:text="@string/adres"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/facebook2"
+            android:layout_toRightOf="@+id/address"
+            android:gravity="right"
+            android:padding="@dimen/padding_medium"
+            android:text="@string/hours"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+
+    </RelativeLayout>
+</ScrollView>
